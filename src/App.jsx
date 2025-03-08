@@ -5,9 +5,7 @@ import { useState } from "react";
 
 console.log(import.meta.env.VITE_API_KEY);
 
-const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=${
-  import.meta.env.VITE_API_KEY
-}&q=`;
+const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=2f52bbd048904f0985412243250803&q=`;
 
 export default function App() {
   const [city, setCity] = useState("");
